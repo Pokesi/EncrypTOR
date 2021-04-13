@@ -7,4 +7,4 @@ A method of encryption that has nothing to do with onions
 4. share your encrypted message
 5. the other person will decode it
 # bye
-⛓
+tip my bitcoin maybe -> `1JARw9GmdUdD1gFyharbmfiFBpN7gg3jj7"`

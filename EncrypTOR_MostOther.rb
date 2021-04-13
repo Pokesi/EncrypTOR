@@ -23,13 +23,12 @@
       key3 = key3.shuffle
       key3 = key3.join
       puts("Second sub key \n" + key3)
-      puts("MAKE SURE TO KEEP THESE KEYS SAFE, THERE WILL BE NO RECOVERING THE FILE/STRING IF YOU LOSE THEM")
+      puts("MAKE SURE TO KEEP THESE KEYS SAFE, THERE WILL BE NO RECOVERING THE STRING IF YOU LOSE THEM")
       puts("**********************")
     end
     puts("*       Result       *")
     puts("**********************")
-    str = str.tr(key1,key1.reverse)
-    str = str.tr(key2,key3)
+    str = str.tr(key1,key1.reverse).tr(key2,key3)
     return str
   end
 
@@ -40,8 +39,7 @@
     puts(key1)
     puts(key2)
     puts(key3)
-    basestr = basestr.tr(key3,key2)
-    basestr = basestr.tr(key1,key1.reverse)
+    basestr = basestr.tr(key3,key2).tr(key1,key1.reverse)
     puts("**********************")
     puts("*       Result       *")
     puts("**********************")

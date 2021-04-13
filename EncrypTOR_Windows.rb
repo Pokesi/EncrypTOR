@@ -28,6 +28,7 @@
     end
     puts("*       Result       *")
     puts("**********************")
+    puts("tip my bitcoin if you want 1JARw9GmdUdD1gFyharbmfiFBpN7gg3jj7")
     str = str.tr(key1,key1.reverse).tr(key2,key3)
     return str
   end
@@ -43,6 +44,7 @@
     puts("**********************")
     puts("*       Result       *")
     puts("**********************")
+    puts("tip my bitcoin if you want 1JARw9GmdUdD1gFyharbmfiFBpN7gg3jj7")
     return basestr
   end
     

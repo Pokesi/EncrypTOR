@@ -1,6 +1,6 @@
 # EncrypTOR
 A method of encryption that has nothing to do with onions
-# Do this \/
+# Do this
 1. run it in your command line
 2. do what it says
 3. dont lose the keys

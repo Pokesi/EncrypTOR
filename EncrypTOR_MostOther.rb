@@ -47,7 +47,7 @@
     puts("tip my bitcoin if you want 1JARw9GmdUdD1gFyharbmfiFBpN7gg3jj7")
     return basestr
   end
-    
+
 puts("+---------------------------------+")
 puts("|EncrypTOR, encryption to a degree|")
 puts("+---------------------------------+")

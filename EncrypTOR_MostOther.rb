@@ -87,9 +87,6 @@ elsif method == "d"
   system("clear")
   x = decrypt(strs,keys[0],keys[1],keys[2])
   puts(x)
-else
-  puts("invalid method --------- :) ima eval it")
-  eval(method)
 end
 
 
